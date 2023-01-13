@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Sidebar = () => {
     return (
-        <div className='w-72 h-screen pl-7 py-4 border-r-2'>
+        <div className='w-72 h-screen pl-7 sticky top-0 py-4 border-r-2'>
             <div className=' h-14 top-0'>
                 <Image alt='logo' className='object-cover' width={200} height={100} src={'/Mask Group.png'} />
             </div>
