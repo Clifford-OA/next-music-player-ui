@@ -17,7 +17,7 @@ const MainLayout = ({ children }: Layout) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='flex h-full relative '>
+      <div className='flex h-full relative container'>
         {/* sidebar */}
         <Sidebar />
         <div className='relative w-[86%]'>
