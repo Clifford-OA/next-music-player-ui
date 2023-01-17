@@ -20,14 +20,13 @@ const MainLayout = ({ children }: Layout) => {
       <div className='flex h-full relative '>
         {/* sidebar */}
         <Sidebar />
-        <div className='relative flex-1'>
-        {/* header */}
-        <Header />
-        {/* children */}
-        <div className='h-[20000px] '>
-
-          {children}
-        </div>
+        <div className='relative w-[86%]'>
+          {/* header */}
+          <Header />
+          {/* children */}
+          <div className='w-full'>
+            {children}
+          </div>
         </div>
         {/* bottom bar */}
       </div>

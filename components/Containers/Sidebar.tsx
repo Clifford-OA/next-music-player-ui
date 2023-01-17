@@ -5,11 +5,11 @@ import Link from 'next/link'
 
 const Sidebar = () => {
     return (
-        <div className='w-72 h-screen pl-7 sticky top-0 py-4 border-r-2'>
-            <div className=' h-14 top-0'>
+        <div className='w-[14%] h-screen pl-7 sticky top-0 py-4 border-r-2'>
+            <div className=' h-14 top-0 w-full'>
                 <Image alt='logo' className='object-cover' width={200} height={100} src={'/Mask Group.png'} />
             </div>
-            <div className='mt-12 block text-gray-500 text-base'>
+            <div className='mt-12 block w-full text-gray-500 text-base'>
                 <Link href={'/'} className='flex flex-row items-center mb-7 group hover:cursor-pointer'>
                     {/* icon */}
                     <svg className='fill-gray-500 group-hover:fill-[#3E2AD1]' width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
