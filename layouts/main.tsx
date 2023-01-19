@@ -17,14 +17,14 @@ const MainLayout = ({ children }: Layout) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='flex h-full relative container'>
+      <div className='flex h-full relative containerr'>
         {/* sidebar */}
         <Sidebar />
-        <div className='relative w-[86%]'>
+        <div className='relative flex-1 w-4/5'>
           {/* header */}
           <Header />
           {/* children */}
-          <div className='w-full'>
+          <div className=''>
             {children}
           </div>
         </div>
