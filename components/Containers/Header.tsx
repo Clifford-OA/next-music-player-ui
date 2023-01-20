@@ -3,7 +3,7 @@ import React, {useRef} from 'react'
 const Header = () => {
 
     return (
-        <div className='w-4/5 sticky top-0 h-20 z-20 bg-white border-b'>
+        <div className='w-full sticky top-0 h-20 z-20 bg-white border-b'>
 
             <div className='flex items-center px-8 h-full'>
                 <div className='flex border-r h-full items-center'>
